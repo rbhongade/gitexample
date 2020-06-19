@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src/main/webapp"/>
+	<classpathentry excluding="src/main/java/|src/main/resources/|src/test/java/|src/test/resources/|src/main/webapp/" kind="src" path=""/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="C:/selenium_install/visualvm_launcher_u3_eclipse.zip"/>
+	<classpathentry kind="lib" path="C:/selenium_install/visualvm_launcher_u3_eclipse/artifacts.jar"/>
+	<classpathentry kind="lib" path="C:/selenium_install/visualvm_launcher_u3_eclipse/content.jar"/>
+	<classpathentry kind="lib" path="C:/selenium_install/visualvm_launcher_u3_eclipse/plugins/org.eclipse.visualvm.launcher.common_1.1.3.jar"/>
+	<classpathentry kind="lib" path="C:/selenium_install/visualvm_launcher_u3_eclipse/plugins/org.eclipse.visualvm.launcher.java_1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/selenium_install/visualvm_launcher_u3_eclipse/plugins/org.eclipse.visualvm.launcher.pde_1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/selenium_install/visualvm_launcher_u3_eclipse/features/VisualVM_Launcher_1.1.3.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
